@@ -8,7 +8,7 @@ let numero = document.getElementById("numero");
 
 let contador = 0;
 
-setInterval(function(){
+setInterval(function(){ 
 
 contador++;
 
