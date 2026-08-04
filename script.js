@@ -1,17 +1,3 @@
-function mostrarMensagem(){
-
-alert("As queimadas causam enormes danos ao meio ambiente. Faça sua parte!");
-
+function mostrarMensagem() {
+    alert("🔥 Ajude a combater as queimadas! Preserve a natureza e proteja o meio ambiente.");
 }
-
-let numero = document.getElementById("numero");
-
-let contador = 0;
-
-setInterval(function(){ 
-
-contador++;
-
-numero.innerHTML = contador;
-
-},100);
