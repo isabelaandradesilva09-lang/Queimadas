@@ -1,8 +1,41 @@
 body{
-    background:red;
+    background:#4a0000;
+    color:white;
+    font-family:Arial, sans-serif;
+    margin:30px;
 }
 
 h1{
-    color:yellow;
     text-align:center;
+    color:#ffd54f;
+}
+
+h2{
+    color:#ffb74d;
+}
+
+p{
+    background:#7a0000;
+    padding:15px;
+    border-radius:8px;
+}
+
+ul{
+    background:#7a0000;
+    padding:20px 40px;
+    border-radius:8px;
+}
+
+button{
+    background:#ff5722;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ff9800;
 }
